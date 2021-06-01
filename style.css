@@ -1,0 +1,90 @@
+.center {
+  height: 400px;
+  width: 400px;
+  background: #495057;
+  position: fixed;
+      box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+  top: 50%;
+  left: 50%;
+  margin-top: -180px;
+  margin-left: -200px;
+}
+
+body{
+  background-color: #90A4AE
+}
+
+.button {
+  text-align: center;
+  height: 100%;
+  width: inherit;
+  background-color: inherit;
+  border: none;
+  color: white;
+  margin: auto;
+}
+
+.custom-buttons-row {
+  font-size: 1.5rem;
+}
+
+#connect-button {
+  background-color: #007bff;
+}
+
+#disconnect-button {
+  background-color: red;
+}
+
+#capture-button {
+  background-color: #ffc107e8;
+}
+
+.button {
+  margin-left: 1%;
+  margin-right: 1%;
+
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.title-header{
+  color: white;
+   font-size: 40px;
+   font-style: italic;
+   text-shadow: 3px 3px black;
+}
+
+.humid {
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 28px;
+  text-shadow: 2px 2px black;
+  padding-top: 85px;
+  padding-right: 30px;
+  padding-left: 58px;
+  align: center;
+}
+
+.high {
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 28px;
+  text-shadow: 2px 2px black;
+  padding-right: 30px;
+  padding-left: 44px;
+  padding-bottom: 80px;
+  align: center;
+}
+
+.buttoncap{
+  font-family: Helvetica;
+  color: black;
+  font-size: 35px;
+  text-shadow: 1px 1px grey;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  height: 20%;
+  width: inherit;
+}
